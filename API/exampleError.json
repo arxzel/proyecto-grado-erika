@@ -1,0 +1,7 @@
+{
+	"type": "response",
+	"data": {
+		"status": "error",
+		"message": "Arduino no pudo leer un dato A,B,C"
+	}
+}

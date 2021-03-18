@@ -1,0 +1,41 @@
+// Máquina -> servidor (Servidor responde un JSON de confirmación)
+// http://www.proyectoerika.com/API/EndPoint.php
+{
+	"type" : "registro",
+	"data" : {
+		"cantidad_ml": 1000,
+		"velocidad": 3
+	}
+}
+
+// Servidor <--> Máquina (Máquina responde un JSON de confirmación)
+// http://www.proyectoerika.com/API/EndPoint.php
+{
+	"type": "event_machine",
+	"data": {
+		"estado_maquina": true, // true(1) / false(0) encender apagar máquina.
+		"estado_motor": false, // true(1) / false(0) Iniciar / deteder motor.
+		"velocidad": 2, // Velocidad (1,2,3) de la máquina.
+		"cantidad_ml": 1000// Cantidad de Ml inyecta la máquina por recipiente.
+	}
+}
+
+
+// Respuestas JSON de confirmación.
+// Si todo sale ok
+{
+	"type": "response",
+	"data": {
+		"status": "success",
+		"message": "Detalle de la operación"
+	}
+}
+
+// Si ocurre un error en la operación
+{
+	"type": "response",
+	"data": {
+		"status": "error",
+		"message": "Detalle del error"
+	}
+}

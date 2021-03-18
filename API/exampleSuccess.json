@@ -1,0 +1,7 @@
+{
+	"type": "response",
+	"data": {
+		"status": "success",
+		"message": "Arduino configurado con éxito"
+	}
+}
