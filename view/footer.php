@@ -2,7 +2,7 @@
     <div class="col-xs-12">
         <hr />
         <footer class="text-center well">
-            <p>Desarrollado por <a href="#">Erika Lisseth Sanchez Rizo</a></p>
+            <p>Desarrollado por <a href="#">Erika Lizeth Sanchez Rizo</a></p>
         </footer>
     </div>    
 </div>
