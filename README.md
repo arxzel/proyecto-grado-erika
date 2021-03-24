@@ -1,2 +1,2 @@
 # proyecto-grado-erika
-Proyecto Grado Erika Lisseth Sanchez Rizo
+Proyecto Grado Erika Lizeth Sanchez Rizo
