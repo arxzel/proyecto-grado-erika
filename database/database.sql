@@ -33,7 +33,7 @@ DROP TABLE IF EXISTS `maquina`;
 CREATE TABLE IF NOT EXISTS `maquina` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `NombreMaquina` varchar(300) NOT NULL DEFAULT 'maquina',
-  `IP` varchar(20) NOT NULL DEFAULT '192.168.1.2',
+  `IP` varchar(100) NOT NULL DEFAULT '192.168.1.2',
   `EstadoMaquina` tinyint(1) NOT NULL DEFAULT 0,
   `EstadoMotor` tinyint(1) NOT NULL DEFAULT 0,
   `Velocidad` float NOT NULL DEFAULT 0,
